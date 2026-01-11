@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3031;
+const PORT = 3022;
 
 const server = http.createServer((req, res) => {
     if (req.url === '/' || req.url === '/index.html') {

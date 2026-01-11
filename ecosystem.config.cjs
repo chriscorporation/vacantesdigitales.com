@@ -1,11 +1,11 @@
 module.exports = {
   apps: [
     {
-      name: "ingenieria.dev",
+      name: "vacantesdigitales.com",
       script: "index.js",
       env: {
         NODE_ENV: "production",
-        PORT: 3031,
+        PORT: 3022,
       },
     },
   ],
